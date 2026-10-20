@@ -165,7 +165,7 @@ if (enq) enq.addEventListener("submit", (e) => {
 });
 
 /* ---------- motion ---------- */
-if (window.Lenis && !reduce) {
+if (window.Lenis && !reduce && fine) {
   lenis = new Lenis({ duration: 1.15, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)) });
   const raf = (t) => { lenis.raf(t); requestAnimationFrame(raf); }; requestAnimationFrame(raf);
 }
