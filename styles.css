@@ -191,7 +191,7 @@ body.drawer-open .drawer{transform:none}
 .d-head{flex:none;display:flex;justify-content:space-between;align-items:center;padding:22px 24px;border-bottom:1px solid var(--line);padding-top:max(22px,env(safe-area-inset-top))}
 .d-head h2{font-size:28px;margin:0}
 .x{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:#fff;font-size:20px;cursor:pointer}
-.d-body{flex:1;min-height:0;overflow-y:auto;padding:8px 24px max(24px,env(safe-area-inset-bottom));overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.d-body{flex:1;min-height:0;overflow-y:auto;padding:8px 24px max(24px,env(safe-area-inset-bottom));overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y}
 .line{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:4px 14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
 .line img{grid-row:span 2;width:62px;height:62px;object-fit:contain;border-radius:12px;background:#fff}
 .line b{min-width:0;font:600 15px var(--serif)}
